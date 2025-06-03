@@ -1,0 +1,56 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git files
+.git/
+.gitignore
+
+# Test outputs (but keep test scripts)
+test_output/
+websocket_output_*.mp4
+
+# Documentation (keep README for reference)
+docs/
+TECHNICAL_IMPLEMENTATION_REPORT.md
+DEPLOYMENT_CHECKLIST.md
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Downloaded test files (will be included in container if needed)
+# *.mp4
+# *.jpg
+# *.mp3
+
+# Development files
+.pytest_cache/
+.coverage
+*.cover
+.hypothesis/
+
+# Docker files (not needed inside container)
+docker-compose.yml
+.dockerignore 
